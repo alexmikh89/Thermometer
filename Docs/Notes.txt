@@ -1,0 +1,1 @@
+LCD 1602 with I2C connection  - https://qazf.com.ua/arduino-i2c-lcd2004-lcd1602/
