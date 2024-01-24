@@ -1,3 +1,1 @@
-LCD 1602 with I2C connection  - https://qazf.com.ua/arduino-i2c-lcd2004-lcd1602/
-DHT 11 (module) - https://components101.com/sensors/dht11-temperature-sensor
-ESP 8266-07 pibout - https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
+ESP 8266-07 pibout - https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/#:~:text=to%20be%20cautious.-,The%20pins,-highlighted%20in%20green

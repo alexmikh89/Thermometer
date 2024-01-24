@@ -1,9 +1,6 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
 			"name": "External thermometer",
 			"path": "External thermometer"
 		}
