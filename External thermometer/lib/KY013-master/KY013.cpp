@@ -13,7 +13,7 @@ KY013::KY013(uint8_t _pin)
 
 float KY013::readTemperatureK()
 {
-  int rawADC = map(analogRead(pin), 0, 5, 0, 3.3);
+  int rawADC = analogRead(pin);
   float r = Resistor / (1023.0 / rawADC - 1);
   float lnR = log(r);
   float temp = 1 / (Const_A + Const_B * lnR + Const_C * pow(lnR, 3));
