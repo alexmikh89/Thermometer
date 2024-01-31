@@ -22,6 +22,10 @@ void setup()
 void loop()
 {
   float temp = thermistor.readTemperatureC() - 19;
+  int rawADC = analogRead(PIN_A0);
+  Serial.print("raw: ");
+  Serial.print(rawADC);
+  Serial.print("      temp: ");
   Serial.print(temp);
   Serial.println(" C");
   delay(500);
